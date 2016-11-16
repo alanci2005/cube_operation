@@ -1,0 +1,4 @@
+cp $1.cube cubeA
+dipole.x > $1.dip
+rm cubeA
+cat $1.dip
